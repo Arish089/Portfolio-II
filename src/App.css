@@ -1,0 +1,26 @@
+.NavCon{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #0A1828;
+}
+:hover.NavCon{
+  cursor: pointer;
+  color: #178582;
+  scale: 1.1;
+}
+:hover.skills{
+scale: 1.05;
+}
+
+.NavCon1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #0A1828;
+}
+:hover.NavCon1{
+  cursor: pointer;
+  color: #ffff;
+  scale: 1.1;
+}
