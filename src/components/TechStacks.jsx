@@ -3,7 +3,7 @@ import React from 'react'
 
 const TechStacks = () => {
   return (
-    <Box p={5} w='100%'>
+    <Box p={5} w='100%' id='stacks'>
         <Flex direction='column' bgColor='rgb(25, 25, 29)' flexWrap='wrap' alignItems='center' gap={5}  py={5} px={{base:1,sm:4,md:16}}
         rounded='lg' border='0.5px solid darkGrey'>
         

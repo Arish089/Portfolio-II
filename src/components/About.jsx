@@ -1,9 +1,12 @@
 import { Box, Flex, Heading, Image, Img, Text } from '@chakra-ui/react'
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
+import { useNavigate } from 'react-router-dom';
 
 const About = () => {
+  
   return (
-    <Box p={5}  w='100%'>
+    <section id='about'>
+    <Box p={5}   w='100%'>
 <Flex direction='column' gap={10} bgColor='rgb(25, 25, 29)' flexWrap='wrap' alignItems='center' textAlign='center' p={5} rounded='lg' border='0.5px solid darkGrey' > 
 <Heading bgClip='text' bgGradient='linear(to-l, #178582, #142f4e)' fontSize={40}>
   About Me
@@ -20,6 +23,7 @@ const About = () => {
 </Flex>
 <Image />
     </Box>
+    </section>
   )
 }
 

@@ -1,7 +1,8 @@
-import { Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter, DrawerHeader, DrawerOverlay, Flex, Input, Text, useDisclosure } from '@chakra-ui/react'
+import { Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter, DrawerHeader, DrawerOverlay, Flex, Input, Link, Text, useDisclosure } from '@chakra-ui/react'
 import React, { useRef, useState } from 'react'
 import '../App.css'
 import {FaBars} from 'react-icons/fa'
+import SmoothScrollLink from '../utils/SmoothScrollLink'
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure()
@@ -16,15 +17,18 @@ const Navbar = () => {
            </Text>
       </Box>
     <Flex bg='white' justifyContent='space-around' w='65%' rounded='16px' p={3} flexWrap='wrap'>
-        <Text className='NavCon'>Home</Text>
-        <Text className='NavCon'>About</Text>
-        <Text className='NavCon'>Skills</Text>
-        <Text className='NavCon'>Stacks</Text>
-        <Text className='NavCon'>Projects</Text>
-        <Text className='NavCon'>Contact</Text>
+       <SmoothScrollLink to="#home"> <Text className='NavCon'>Home</Text></SmoothScrollLink>
+        <SmoothScrollLink to="#about"><Text className='NavCon'>About</Text></SmoothScrollLink>
+       <SmoothScrollLink to='#skills'> <Text className='NavCon'>Skills</Text></SmoothScrollLink>
+       <SmoothScrollLink to='#stacks'>  <Text className='NavCon'>Stacks</Text></SmoothScrollLink>
+       <SmoothScrollLink to='#projects'> <Text className='NavCon'>Projects</Text></SmoothScrollLink> 
+       <SmoothScrollLink to='#contact'>  <Text className='NavCon'>Contact</Text></SmoothScrollLink>
     </Flex>
     <Box>
-    <Button bgColor='#178582'>Resume</Button></Box>
+      <Link href='https://drive.google.com/file/d/14Amk-lQ9h3eAaiU4VAoD_wc4zA_hjCpd/view?usp=drive_link' download='ArishAli-FullStackWebDeveloper-jEoK.pdf'>
+      <Button bgColor='#178582' color='#0A1828'  fontSize={24} fontWeight='bold'>Resume</Button>
+      </Link>
+    </Box>
     </Flex>
     <Box display={{base:'block', sm:'none'}} >
         <Flex direction='column' border='1px solid white' rounded='lg'> 
@@ -51,7 +55,9 @@ const Navbar = () => {
               <Text className='NavCon1'>Contact</Text>
             </Flex>
             <Box>
-            <Button bg='#178582' fontWeight='bold' fontSize={20} color='#0A1828'>Resume</Button>
+            <Link href='https://drive.google.com/file/d/14Amk-lQ9h3eAaiU4VAoD_wc4zA_hjCpd/view?usp=drive_link' download='ArishAli-FullStackWebDeveloper-jEoK.pdf'>
+      <Button bgColor='#178582' fontSize={24} fontWeight='bold'>Resume</Button>
+      </Link>
             </Box>
             </Flex>
           </DrawerBody>

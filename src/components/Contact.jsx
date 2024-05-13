@@ -4,7 +4,7 @@ import { FaEnvelope, FaGithub, FaLinkedin, FaPhone } from 'react-icons/fa'
 
 const Contact = () => {
   return (
-    <Box p={5} w='100%'>
+    <Box p={5} w='100%' id='contact'>
   <Flex direction='column' m='auto' w={{base:'90%',sm:'65%',md:'50%'}} bgColor='rgb(25, 25, 29)' flexWrap='wrap' alignItems='center' gap={8} py={5} px={{base:1,md:5}} rounded='lg' border='1px solid darkGrey'>
   
   <Heading bgClip='text' bgGradient='linear(to-l, #178582, #142f4e)' fontSize={40} >

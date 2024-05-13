@@ -3,7 +3,7 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <Box p={5} w='100%'>
+    <Box p={5} w='100%' id='skills'>
         <Flex direction='column' bgColor='rgb(25, 25, 29)' flexWrap='wrap' alignItems='center'  p={{base:1,md:5}} rounded='lg' border='0.5px solid darkGrey'>
         
         <Heading bgClip='text' bgGradient='linear(to-l, #178582, #142f4e)' fontSize={40} >
