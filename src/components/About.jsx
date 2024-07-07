@@ -11,7 +11,7 @@ const About = () => {
 <Heading bgClip='text' bgGradient='linear(to-l, #178582, #142f4e)' fontSize={40}>
   About Me
 </Heading>
-  <Image src='https://i.postimg.cc/SsZjchVj/DP.jpg' w='20%'  />
+  <Image src='https://i.postimg.cc/SsZjchVj/DP.jpg' w={{base:'50%',sm:'30%',md:'20%'}}  />
   <Text color='#178582' fontSize='20' fontWeight='semibold' >
 
   <Text color='mediumseagreen' fontSize='24'>Hey, I'm Arish Ali</Text> 

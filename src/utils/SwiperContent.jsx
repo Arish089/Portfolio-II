@@ -57,11 +57,12 @@ const SwiperContent = ()=> {
 
           <Flex direction='column' fontSize={{base:16,sm:18,md:22}} fontWeight='semibold' gap={5} flexWrap='wrap' textAlign='center' color='#178582'>
             <Text fontSize={{base:20,sm:24,md:28}} color='seagreen' fontWeight='bold'>Movix_</Text>
-            <Text >It is a movie info app, incorporating firebase in three modes: anonymous, google, and email authentication. It has extremely rich interface and is
-                    ultra responsive across all screens with elegant theme. User can browse through already defined sections of Movies, Tv soaps, Series, Anime and etc., can
-                    search content and even look into more details about the respective content.
+            <Text > Developed a media entertainment robust application that provides detailed information about movies, series, and animes using the TMDB API. 
+              Features include categories, advanced search, filters, and sorting. Integrated Firebase for authentication (anonymous, email, and Google sign-ins).
+               Addressed government API restrictions by implementing a Node.js proxy server, ensuring uninterrupted access. Only authenticated users can manage profiles,
+                watchlists, and favorites.
             </Text>
-            <Text>Tech Stack: <span style={{color:'seagreen', fontSize:'24px'}}>React | Vite | Firebase | Chakra UI | RESTful API</span></Text>
+            <Text>Tech Stack: <span style={{color:'seagreen', fontSize:'24px'}}>React | Vite | MongoDB | Express | Node.js | RESTful API | CRUD | Firebase | Chakra UI | Proxy Server</span></Text>
           </Flex>
 
           <Flex justifyContent={{base:'center',sm:'space-between'}} gap={2} w={{base:'80%',sm:'80%',md:'80%'}} flexWrap='wrap'>
