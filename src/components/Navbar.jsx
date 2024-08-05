@@ -25,7 +25,7 @@ const Navbar = () => {
        <SmoothScrollLink to='#contact'>  <Text className='NavCon'>Contact</Text></SmoothScrollLink>
     </Flex>
     <Box>
-      <Link href='https://drive.google.com/file/d/1nWIIK_jEEM_q9FTg1dwfiWApIePdwKJB/view?usp=sharing' download='ArishAli-FullStackWebDeveloper-SEff.pdf'>
+      <Link href='https://drive.google.com/file/d/147rPt6nS3Kivv3RTDbC9XcEeu_9-zzJc/view?usp=sharing' download='ArishAli-FullStackWebDeveloper-mQU7.pdf'>
       <Button bgColor='#178582' color='#0A1828'  fontSize={24} fontWeight='bold'>Resume</Button>
       </Link>
     </Box>
@@ -55,7 +55,7 @@ const Navbar = () => {
               <Text className='NavCon1'>Contact</Text>
             </Flex>
             <Box>
-            <Link href='https://drive.google.com/file/d/1nWIIK_jEEM_q9FTg1dwfiWApIePdwKJB/view?usp=sharing' download='ArishAli-FullStackWebDeveloper-SEff.pdf'>
+            <Link href='https://drive.google.com/file/d/147rPt6nS3Kivv3RTDbC9XcEeu_9-zzJc/view?usp=sharing' download='ArishAli-FullStackWebDeveloper-mQU7.pdf'>
       <Button bgColor='#178582' fontSize={24} fontWeight='bold'>Resume</Button>
       </Link>
             </Box>
